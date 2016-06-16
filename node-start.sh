@@ -48,7 +48,7 @@ if (!module.parent) {\n
   });\n
 }\n
 "
-routesStr="
+routeStr="
 module.exports = function(app) {\n
 	app.get('/hello', function(req,res){\n
 		res.send('hello');\n
