@@ -54,7 +54,7 @@ module.exports = function(app) {\n
 		res.send('hello');\n
 	});\n
 \n
-}"\n
+}"
 dbStr="\n
 var mongoose = require('mongoose');\n
 \n
