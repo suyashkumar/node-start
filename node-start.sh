@@ -67,6 +67,7 @@ module.exports = function() {\n
 };"
 
 mkdir config models public 
+npm init 
 npm install --save body-parser express mongoose morgan socket.io # install common packages 
 echo -e $serverSTR > server.js # write server.js
 echo -e $routeStr > config/routes.js
